@@ -12,11 +12,11 @@ html {
 }
 
 body {
-	font-family: 'Titillium', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Megrim', cursive;
+	font-family: 'Nanum Myeongjo', serif;
 }
 
 .container {
@@ -40,7 +40,7 @@ a:hover, a:active, a:focus {
 }
 
 :hover {
-	transition: color .22s ease;
+	transition: color .2s ease;
 }
 
 .btn {
@@ -116,7 +116,7 @@ header {
 
 .big {
 	font-size: 6em;
-	padding-top: 500px;
+	padding-top: 35%;
 }
 
 .sub {
@@ -310,7 +310,7 @@ nav ul li a {
 
 .port figure {
 	display: inline-block;
-	width: 360px;
+	max-width: 100%;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -382,7 +382,6 @@ figcaption a {
 
 .mapWrap {
 	position: relative;
-	min-height: 600px;
 }
 
 .googleMap {
@@ -525,11 +524,15 @@ footer {
 
 	header{
 		background: url('img/header_bg_small.jpg') no-repeat !important;
-		height: 60%;
 	}
 
 	.big {
-		padding-top: 250px;
+		padding-top: 35%;
+		font-size: 4em;
+	}
+
+	.sub {
+		font-size: 1em;
 	}
 
 }
@@ -547,11 +550,11 @@ footer {
 	}
 
 	.big {
-		font-size: 6em;
+		font-size: 4em;
 	}
 
 	.sub {
-		font-size: 2em;
+		font-size: 1em;
 	}
 
 	.port {
@@ -584,16 +587,27 @@ footer {
 	}
 
 	.big {
-	    font-size: 4em;
+	    font-size: 3em;
 	}
 
 	.sub {
 	    font-family: 'Titillium Web',sans-serif;
-	    font-size: 1.5em;
+	    font-size: 1em;
 	    font-weight: 200;
 	    margin: 0;
 	}
 	
+	.port figcaption {
+		padding: 0;
+	}
+
+	.port figcaption h3 {
+		font-size: 1em;
+	}
+
+	.port figcaption span {
+		font-size: .75em;
+	}
 }
 
 @media all and (max-width: 480px) {
@@ -601,5 +615,9 @@ footer {
 	.scrollDown {
 	    top: 70%;
 	    left: 44%;
+	}
+
+	.footer-text {
+		font-size: .75em;
 	}
 }
